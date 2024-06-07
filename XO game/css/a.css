@@ -1,0 +1,208 @@
+:root{
+ --main-colorone:#063cb6;
+ --main-colortwo:#0677b6;
+ --main-colorthree:#0694b6;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: auto;
+        background-image: url(/img/240_F_271704997_OQtrzHq1f8YBa3H5gSwPzFnjuIXDIajW.jpg);
+        /* background-image: url(/img/BG\ BULE.jpg); */
+        /* background-size:contain/; */
+        max-height: 100vh;
+}
+.layer{
+  display: inline-block;
+  /* z-index: 1; */
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+background-color: rgba(0, 0, 0, 0.621);
+}
+.contner{
+    width: 60%;
+    height: 85vh;
+    position: absolute;
+    top: 44%;
+    left:  50%;
+    transform:translate(-50%,-50%);
+    display: none;
+
+  
+}
+
+.boxs{
+    background-color:var(--main-colortwo);
+    /* background-color: #8006b6; */
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+        border-radius: 10px;
+    margin: auto;
+    
+}
+
+.box{
+    width:calc(98% / 3);
+    height: calc(98% / 3);
+    /* background: #0b9fe3; */
+    background: rgb(255, 255, 255);
+    /* background: rgb(49, 15, 80); */
+    font-size: 70PX;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0);
+    /* color: rgba(255, 255, 255, 0.005); */
+    align-items: center;
+    display: flex;    
+    justify-content: center;
+    border-radius: 10px;
+    background-size: cover;
+    /* opacity: 0; */
+}
+.box:hover{
+    /* background-color:#3b023e; */
+    background-color:var(--main-colorthree);
+}
+.text{
+    font-size: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+     margin-left:15px ; 
+     /* background-color: #8006b6; */
+     /* background-color: #143F6B; */
+       background-image: linear-gradient(to right ,var(--main-colorone),var(--main-colortwo));
+       /* background-image: linear-gradient(to right ,#8006b6,#9d06b6); */
+
+     border-radius: 20px;
+     padding: 10PX;
+     width: 80%;
+     height: 60px;
+     margin: 10px auto;
+}
+
+.text h1{
+  position: relative;
+  z-index: 2;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+  cursor: default;
+  user-select: none;
+  transition: all 0.3 ease;
+}
+.soild{
+  position:absolute;
+  left: 200px;
+  top:15px;
+  background-color: var(--main-colorthree);
+  /* background-color: #0b9fe3; */
+  width: 150px;
+     height: 70px;
+     border-radius: 20px;
+          /* box-shadow: 1px 1px 0px 1px #5b0052; */
+
+     transition: 0.5s ease;
+}
+.open{
+  left: 570px;
+
+}
+.xxx span{
+  color: #FAEA48;
+  font-size: 30px;
+  font-weight: 800;
+}
+.ooo span{
+  color: #F55353;
+
+}
+/* ----------- */
+.border{
+  position: absolute;
+    top: 44%;
+    left:  50%;
+    transform:translate(-50%,-50%);
+  z-index: 1000;
+  width: 700px;
+  height: 150px;
+  border-radius: 20px;
+  background-color: #eee;
+  padding: 40px;
+  /* color: ; */
+}
+.xtexr{
+  text-align: end;
+}
+.ptexr{
+  display: inline-block;
+  background-color: var(--main-colorthree);
+  /* background-color: #b606a3; */
+  /* padding: 2px 70px; */
+  font-size: 32px;
+  width: 100px;
+  height: 50px;
+  font-weight: 800;
+  border-radius: 10px;
+  text-align: center;
+
+  margin: 20px 10px;
+  color: #ffff;
+}
+.ptexr:hover{
+    background-color: var(--main-colorone);
+
+
+}
+span{
+  color: var(--main-colortwo);
+
+}
+audio{
+  position: relative;
+  
+  background-color: #FAEA48;
+}
+.border2{
+  position: absolute;
+    top: 50%;
+    left:  50%;
+    transform:translate(-50%,-50%);
+  z-index: 1000;
+  width: 500px;
+  min-height: 500px;
+  border-radius: 20px;
+  background-color: rgb(254, 254, 254);
+  padding: 40px;
+  /* margin-top: 10px; */
+  /* color: ; */
+}
+.border2 img{
+  background-color: #eee;
+  margin: 10px 5px;
+  width: 100px;
+  height: 100px;
+box-shadow: 5px 5px  10px #5b005269;
+transition: 0.3s ease;
+
+}
+.boxbordr2{
+  margin: 30px auto;
+  width: 455px;
+}
+.border2 img:hover{
+  background-color: #cddee1;
+  transform: scale(1.1);
+}
